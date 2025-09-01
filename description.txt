@@ -1,0 +1,36 @@
+
+project/
+├── conftest.py
+├── pytest.ini
+├── requirements.txt
+├── pages/
+│   ├── __init__.py
+│   ├── login_page.py
+│   ├── inventory_page.py
+│   ├── cart_page.py
+│   └── checkout_page.py
+└── tests/
+    ├── ui/
+    │   ├── __init__.py
+    │   ├── test_login.py
+    │   ├── test_inventory.py
+    │   ├── test_cart.py
+    │   └── test_checkout.py
+    └── api/
+        ├── __init__.py
+        ├── test_users.py
+        ├── test_posts.py
+        ├── test_comments.py
+        ├── test_albums.py
+        ├── test_todos.py
+        └── test_photos.py
+
+pip install selenium pytest allure-pytest requests
+pip freeze > requirements.txt
+
+
+
+
+
+
+
